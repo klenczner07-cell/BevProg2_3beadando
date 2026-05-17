@@ -1,1 +1,15 @@
 # BevProg2_3beadando
+
+Az első verzió tulajdonságai:
+
+- Létrehoztam az alapstruktúrát: Application, Widget, Button, Felirat osztályok
+  (a widgetkészletből átvéve es kiegészítve)
+- Megírtam a Tábla widgetet, ami kirajzolja a 15x15-os rácsos játékteret
+- A JatekMester osztály létrejon, tárolja a tábla állapotát
+- Egér mozgására a cellákon kövér kiemelés mutatja az aktív mezőt
+- Az ablak megnyílik, a tábla látható, a felirat megjelenik
+
+
+Ismert hiba (BUG):
+- Kattintásra SEMMI sem történik. A Tabla::handle().
+- A jatekos-valtás sincs megoldva.
